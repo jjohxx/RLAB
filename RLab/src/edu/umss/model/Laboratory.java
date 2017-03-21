@@ -4,6 +4,7 @@ public class Laboratory {
 
 	private int labId;
 	private String labName;
+	private Person owner;
 
 	public Laboratory(int newId) {
 		labId = newId;
@@ -19,6 +20,14 @@ public class Laboratory {
 
 	public int getLabId() {
 		return labId;
+	}
+
+	public Person getOwner() {
+		return owner;
+	}
+
+	public void setOwner(Person owner) {
+		this.owner = owner;
 	}
 
 }
