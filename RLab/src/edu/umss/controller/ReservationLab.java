@@ -3,11 +3,11 @@ package edu.umss.controller;
 public class ReservationLab {
 	
 	private LabManager labManager;
-	private static Connection connection;
+	private static DatabaseConnection connection;
 		
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		connection = new Connection();
+		connection = new DatabaseConnection();
 		new ReservationLab();
 	}
 	

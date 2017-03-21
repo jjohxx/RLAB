@@ -6,7 +6,7 @@ import edu.umss.model.Laboratory;
 
 public class LabManager {
 
-	public void makeReservation(Connection connection, int labId, String labName, String ownerName) {
+	public void makeReservation(DatabaseConnection connection, int labId, String labName, String ownerName) {
 		if (labId != 0 && StringUtils.isNotEmpty(ownerName)) {
 			
 		} else if(StringUtils.isNotEmpty(labName) && StringUtils.isNotEmpty(ownerName)) {
